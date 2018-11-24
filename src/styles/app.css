@@ -1,0 +1,38 @@
+.list-item span{
+  padding: 5px;
+}
+
+.star div {
+  display: inline-block;
+  cursor: pointer;
+  background-image: url(star-gray.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+}
+
+.star.stars-1 div:nth-child(-n + 1),
+.star div:nth-child(-n + 1):hover {
+  background-image: url(star-gold.png);
+}
+
+.star.stars-2 div:nth-child(-n + 2),
+.star div:nth-child(-n + 2):hover {
+  background-image: url(star-gold.png);
+}
+
+.star.stars-3 div:nth-child(-n + 3),
+.star div:nth-child(-n + 3):hover {
+  background-image: url(star-gold.png);
+}
+
+.star.stars-4 div:nth-child(-n + 4),
+.star div:nth-child(-n + 4):hover {
+  background-image: url(star-gold.png);
+}
+
+.star.stars-5 div:nth-child(-n + 5),
+.star div:nth-child(-n + 5):hover {
+  background-image: url(star-gold.png);
+}
